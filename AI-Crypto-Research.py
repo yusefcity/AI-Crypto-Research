@@ -55,3 +55,14 @@ for item in (
     note3,
 ):
     print(item)
+
+print("Online", status[0])
+
+print("Nonce", transaction["nonce"])
+
+print("Bytes", status[1])
+
+print("Time", status[2])
+
+print("Signature created")
+```
